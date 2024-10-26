@@ -8,7 +8,8 @@ from neural_network import Network
 import Mnist_Data_reader as mnist_loader
 def main():
 
-    img_dir = '/home/dpaulino/workplace/python/projects/neural_nw_digits/neural_nw_digits/resources'
+    proj_dir ='/home/dpaulino/workplace/github2/neural_nw_digits'
+    img_dir = proj_dir+'/neural_nw_digits/resources'
     train_img_file_path = os.path.join(img_dir,'train-images-idx3-ubyte/train-images-idx3-ubyte')
     train_lbl_file_path= os.path.join(img_dir,'train-labels-idx1-ubyte/train-labels-idx1-ubyte')
     test_img_file_path= os.path.join(img_dir,'t10k-images-idx3-ubyte/t10k-images-idx3-ubyte')
